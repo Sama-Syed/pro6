@@ -1,0 +1,79 @@
+.box
+{
+    position: relative;
+   height:400px;
+   width:400px;
+   background-color:rgba(240, 248, 255,0.5);
+   margin:auto;
+   margin-top: 7%;
+   border: 2px solid rgba(0, 0, 0,0.2);
+   box-shadow:4px 4px 4px 4px rgb(78, 201, 201,0.4) ;
+   border-radius: 20px;
+}
+body
+{
+    background-image: url("https://i.pinimg.com/564x/7c/7f/72/7c7f72f5653cab205ac4b807fd5dd5b4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.t2
+{
+    font-size: larger;
+}
+h1{
+    font-family: "Footlight MT Light";
+    color:grey;
+}
+#add,#sub,#mul,#div
+{
+    width:60px;
+    height:40px;
+    margin-top: 6%;
+    border-radius: 10%;
+    border: 2px solid rgba(0, 0, 0,0.2);
+    background-color: rgba(127, 255, 212,0.2);
+}
+#n1
+{
+    height:30px;
+    width:250px;
+    font-size: 20px;
+}
+#result
+{
+    height:50px;
+    width:fit-content;
+    border:2px solid rgba(0, 0, 0,0.2);
+    margin-top: 0.5%;
+    font-size: medium;
+    border-radius: 10%;
+}
+#wait
+{
+    height:50px;
+    width:fit-content;
+    border:2px solid rgba(0, 0, 0,0.2);
+    margin-top: 1%;
+    font-size: medium;
+    border-radius: 10%;
+}
+#eq
+{
+    width:70px;
+    height:40px;
+    margin-top: 4%;
+    margin-left:32%;
+    border-radius: 10%;
+    border: 2px solid rgba(0, 0, 0,0.2);
+    background-color: rgba(0, 255, 255,0.2);
+}
+#re
+{
+    width:70px;
+    height:40px;
+    margin-top: 4%;
+    border-radius: 10%;
+    border: 2px solid rgba(0, 0, 0,0.2);
+    background-color: rgba(0, 255, 255,0.2);
+}
